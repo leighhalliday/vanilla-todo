@@ -1,0 +1,14 @@
+{
+  "name": "vanilla-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leigh Halliday",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  }
+}
